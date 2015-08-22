@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "Filipe Galhardo, First Post"
 date: 2015-05-21
 ---
