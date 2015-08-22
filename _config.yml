@@ -1,2 +1,4 @@
 name: Filipe Galhardo, the Nerd
 markdown: FRGalhardo
+
+permalink: /blog/:year/:month/:day/:title
