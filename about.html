@@ -9,28 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/myself.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-
-    <style>
-
-      body {background-color:black}
-
-      h1
-      {
-        color:yellow;
-        font-size: 60px;
-        text-align: center;
-      }
-
-      h2
-      {
-        color:#6CC417;
-        font-size: 40px;
-        text-align: center;
-      }
-
-    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,21 +43,28 @@
     </nav>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="cabecalho">
+    <p>Welcome to Filipe's website</p>
+  </header>
+    <br />
     <div class="container">
-      <div class="vertical-center-row">
-        <img class="profile-image img-responsive pull-left img-rounded" src="images/MyPicture.JPG" alt="Filipe Galhardo"/>
-        <h1>Filipe Ravagnani Galhardo</h1>
-        <h2>A great dreamer!</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <img id="img" class="img img-responsive img-circle" src="images/mypicturee.jpg" alt="Filipe Galhardo"/>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <h1>Filipe Ravagnani Galhardo</h1>
+          <h2>A great dreamer!</h2>
+        </div>
+      </div>
+      <br /> <br />
+      <div class="row">
+        <div class="col-xs-12">
+          <p id="msg" style="color:#A8A8A8; font-size: 20px">Hello everyone, in peace? </p>
+          <p id="msg" style="color:#A8A8A8; font-size: 20px">Filipe Ravagnani Galhardo was born on February 13,1993 in Campinas - SP. He loves music, computers, games, technology, cars and other things. In mind a lot of projects and dreams, that every day he fights to accomplish. Study Science Computer in UTFPR campus Ponta Grossa - PR, he likes to improve your skills and learn new things.   </p>
+        </div>
       </div>
     </div>
-  </header>
-  <div class="container">
-    <div class="vertical-center-row navbar-text">
-      <p style="color:#A8A8A8; font-size: 20px">Hello everyone, in peace? </p>
-      <p style="color:#A8A8A8; font-size: 20px">Filipe Ravagnani Galhardo was born on February 13,1993 in Campinas - SP. He loves music, computers, games, technology, cars and other things. In mind a lot of projects and dreams, that every day he fights to accomplish. Study Science Computer in UTFPR campus Ponta Grossa - PR, he likes to improve your skills and learn new things.   </p>
-    </div>
-  </div>>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
